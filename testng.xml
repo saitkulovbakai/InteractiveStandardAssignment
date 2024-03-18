@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="methods" thread-count="2">
+    <!-- Existing Test -->
+    <test verbose="2" preserve-order="true"
+          name="/Users/bakaisaitkulov/Downloads/InteractiveStandardAssignment/src/test/java/apiTests/GetUsers.java">
+        <classes>
+            <class name="apiTests.GetUsers">
+            </class>
+        </classes>
+    </test>
+</suite>
